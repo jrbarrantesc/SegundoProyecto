@@ -1,0 +1,63 @@
+<!Doctype html>
+<!--Html deel login  o inicio de seccion -->
+<html>
+<head>
+	<!-- -->
+<title> Login tumail.es</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="utf-8" />
+<!-- referencias -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/Template.css"/>
+<link rel="stylesheet" href="js/DOCUMENTO.js"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+</head>
+<body>
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
+<div class="navbar-fixed">
+<a  target ="blank"><img src ="C:\Users\Alexander\Documents\Web\ProyectoWeb\WebMailProyect\img\tumail.png"alt =""</a></div>
+<!--Formulario para ingresar el usuario y password-->
+<div class = "rectanguloL"><label class = "labelL">Iniciar Sesion</label></div><br>
+<br/>
+<form name ="formLogin">
+<div >
+	<pre>
+
+
+
+
+
+	</pre>
+	<header>
+		<!--ingresar correo y validacion de correo valido-->
+
+	<input type="email" name="email" placeholder="  Email"  >
+
+	<!--ingresar password-->
+  <input type = "password" name ="password" placeholder ="  Password" >
+
+      <p>
+        <input id="checkbox" type="checkbox"  name="checkbox"><label for="checkbox">Seguir Conectado</label>
+        <!-- link para registrarse-->
+    <a id = "link "<span title="Registrese" target = "_Blank"href="Registro.html"><label class ="labelLR">Registrarse</label></span></a>
+    </p>
+
+
+<!--Boton para ingresar al correo -->
+  <input
+  type="button" value="Login" name="Submit" calss ="enviar" onclick = "ValidateEmail(document.formLogin.email)"/>
+
+</form>
+</div>
+</header>
+</body>
+<script src="js/js.js"></script>
+</html>
+
+
